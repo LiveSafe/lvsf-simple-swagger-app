@@ -1,6 +1,7 @@
 'use strict';
 
-var swagger = require('../../lib/get-swagger')();
+var swagger = require('../../lib/get-swagger')(),
+    paramTypes = swagger.paramTypes;
 
 module.exports = {
     spec: {
@@ -10,7 +11,7 @@ module.exports = {
         summary: 'find thing by ID',
         method: 'GET',
         parameters: [
-            swagger.pathParam('testThingId', 'ID of thing to fetch', 'string')
+            paramTypes.path('testThingId', 'ID of thing to fetch', 'string')
         ],
         type: 'Thing',
         errorResponses: [
