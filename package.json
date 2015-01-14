@@ -1,0 +1,21 @@
+{
+  "name": "lvsf-simple-swagger-app",
+  "version": "1.0.0",
+  "description": "Simple app to try out swagger",
+  "main": "lib/lvsf-simple-swagger-app",
+  "scripts": {
+    "test": "echo \"no tests yet\"",
+    "start": "node server.js"
+  },
+  "author": "LiveSafe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "ls-fs": "^1.1.2",
+    "ls-lodash": "^1.2.1",
+    "q": "^1.1.2",
+    "serve-static": "^1.8.0",
+    "swagger-node-express": "^2.1.3"
+  }
+}
