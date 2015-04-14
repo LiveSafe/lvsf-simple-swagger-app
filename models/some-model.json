@@ -1,0 +1,12 @@
+{
+  "id": "SomeModel",
+  "required": [
+    "id"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "ID"
+    }
+  }
+}

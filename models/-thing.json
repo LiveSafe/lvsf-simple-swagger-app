@@ -1,5 +1,5 @@
 {
-    "id": "TestThing",
+    "id": "Thing",
     "required": ["id", "name"],
     "properties": {
         "id": {
